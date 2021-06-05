@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive landing page</title>
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container" id="nav-bar">
+        <a href="#" class="nav__logo"
+          ><div class="logo">
+            <img
+              id="header-img"
+              src="./assets/img/logo.png"
+              alt="idn travel logo"
+            /></div
+        ></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#destinations" class="nav-link">Destinations</a>
+            </li>
+            <li class="nav__item">
+              <a href="#subscribe" class="nav-link">Subscribe</a>
+            </li>
+            <li class="nav__item">
+              <a href="#policy" class="nav-link">Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    
+      <!--========== HOME ==========-->
+      <div class="home" id="home">
+        <div class="home__container">
+          <div class="text-area">
+            <div class="home__data">
+              <h1 class="home__title">Visit Indonesia</h1>
+              <p class="home__description">
+                Having stopover in myriad places in Indonesia is what makes this
+                country a wonderful place to visit. The beauty of scenic natural
+                landscapes blended with various unique culture of its people.
+                Enjoy the untouched beaches, mountains, lakes, and many more
+                pleasing destinations as well as the magnificent city skylines
+                throughout the country. And when you decide to see them all, a
+                visit won’t be enough to embrace the wonders of Indonesia. Click
+                the Destinations, Attractions, and Festivals to explore further.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="row1"><iframe width="800" height="332" src="https://www.youtube.com/embed/qqf5PVwDZM8" title="YouTube video player" frameborder="0" 
+         id="video" allowfullscreen></iframe></div><div class="row2"></div></div>
+
+      <main class="l-main"></main>
+      <!--========== DECORATION ==========-->
+      <section class="decoration section bd-container" id="destinations">
+        <h2 class="section-title">Top 3 Destinations to visit</h2>
+        <div class="decoration__container bd-grid">
+          <div class="decoration__data">
+            <img
+              src="./assets/img/labu-baju.jpg"
+              alt=""
+              class="decoration__img"
+            />
+            <h3 class="decoration__title">Christmas Bells</h3>
+            <a href="#" class="button button-link">Go Shopping</a>
+          </div>
+
+          <div class="decoration__data">
+            <img src="./assets/img/bali.jpg" alt="" class="decoration__img" />
+            <h3 class="decoration__title">Christmas Candies</h3>
+            <a href="#" class="button button-link">Go Shopping</a>
+          </div>
+
+          <div class="decoration__data">
+            <img
+              src="./assets/img/pulau-rinca.jpg"
+              alt=""
+              class="decoration__img"
+            />
+            <h3 class="decoration__title">Christmas Trees</h3>
+            <a href="#" class="button button-link">Go Shopping</a>
+          </div>
+        </div>
+      </section>
+
+      <!--==========  SUBSCRIBE ==========-->
+      <section class="send section" id="subscribe">
+        <div class="send__container bd-container bd-grid">
+          <div class="send__content">
+            <h2 class="section-title-center send__title">
+              Don't Miss The Magic!
+            </h2>
+            <p class="send__description">
+              Pave your way to amazing stories with us.
+            </p>
+            <form action="" id="form">
+              <div class="send__direction">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Your Email Address"
+                  class="send__input"
+                  required
+                />
+                
+                  <input
+                  type="submit"
+                  name="subscribe"
+                  id="submit"
+                  value="Subscribe"
+                  class="button"
+                  />
+              </div>
+            </form>
+          </div>
+
+          <div class="subscribe__img">
+            <img src="./assets/img/travel.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section">
+      <div class="footer__container bd-container bd-grid">
+        <div class="footer__content">
+          <h3 class="footer__title">
+            <a href="#" id="policy" class="footer__logo">Privacy Policy</a>
+          </h3>
+          <p class="footer__description">
+            This is the official website of the Uzumaky, Republic of Indonesia.
+            The contents listed on this website are intended for informational
+            purposes rather than commercial. Any displayed sale is meant as a
+            token of partnership and will always redirect you to our partners'
+            sites.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Services</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Event </a></li>
+            <li><a href="#" class="footer__link">Discounts</a></li>
+            <li><a href="#" class="footer__link">Travel</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">About Us</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Blog</a></li>
+            <li><a href="#" class="footer__link">About us</a></li>
+            <li><a href="#" class="footer__link">Our mision</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contact Us</h3>
+          <a href="#" class="footer__social"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="#" class="footer__social"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="footer__social"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; 2021 Uzumaky. All right reserved</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
